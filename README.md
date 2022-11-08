@@ -8,7 +8,7 @@ For interacting, you have 4 key commands:
 - "d" - visualize a depth-first search to complete the maze
 - "b" - visualize a breadth-first search to complete the maze
 - " " - at any point in the search, you can pause/resume the animation
-- "r" - at any point in the search, or after it is completed, you can reset to a fresh maze
+- "r" - at any point before, during, or after the search, you can reset to a fresh maze
 
 After the search reaches the end, it will trace back the shortest path in white
 
