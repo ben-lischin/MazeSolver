@@ -4,9 +4,9 @@ package Maze;
 public class MazeRunner {
   public static void main(String[] args) {
     Maze maze;
-    //default size: 60x100
-    int row = 60;
-    int col = 100;
+    //default size: 30x50
+    int row = 30;
+    int col = 50;
 
     //interpret the command-line arguments, construct maze with appropriate size
     int length = args.length;
