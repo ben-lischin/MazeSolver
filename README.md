@@ -13,4 +13,4 @@ For interacting, you have 4 key commands:
 After the search reaches the end, it will trace back the shortest path in white
 
 
-https://user-images.githubusercontent.com/94412143/200498716-309af4fc-bb73-4ba1-bc38-4efc9c98d6b7.mp4
+https://user-images.githubusercontent.com/94412143/200499076-5d88d6a1-cdc3-4653-9ab6-860cb7c3dffd.mp4
