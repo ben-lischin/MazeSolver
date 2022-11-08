@@ -13,4 +13,4 @@ For interacting, you have 4 key commands:
 After the search reaches the end, it will trace back the shortest path in white
 
 
-
+[MazeDemo.mp4.zip](https://github.com/ben-lischin/MazeSolver/files/9964745/MazeDemo.mp4.zip)
