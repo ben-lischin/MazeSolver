@@ -14,8 +14,3 @@ After the search reaches the end, it will trace back the shortest path in white
 
 
 
-
-
-https://user-images.githubusercontent.com/94412143/200662591-38181f7f-3ffd-4b71-b39b-dd47bf6fb41b.mp4
-
-
