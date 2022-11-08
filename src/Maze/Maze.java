@@ -18,7 +18,7 @@ import javalib.worldimages.OutlineMode;
 import javalib.worldimages.Posn;
 import javalib.worldimages.RectangleImage;
 
-//Represents the maze
+// Represents the maze
 // handles constructing and solving it
 public class Maze extends World {
   public int r;
@@ -261,7 +261,7 @@ public class Maze extends World {
 
   // draws the shortest path to complete the maze
   private void animateShortPath() {
-    RectangleImage cell = new RectangleImage(Maze.CELL_SIZE - 2, Maze.CELL_SIZE - 2,
+    RectangleImage cell = new RectangleImage(Maze.CELL_SIZE - 3, Maze.CELL_SIZE - 3,
             OutlineMode.SOLID, Color.WHITE);
     // draw first
     Vertex v = this.shortPath.get(0);
