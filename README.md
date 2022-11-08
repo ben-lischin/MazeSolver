@@ -6,7 +6,7 @@ Optionally enter maze dimensions as command-line arguments to generate a maze of
 Try to solve the maze yourself! Go from the green tile to the pink tile.\
 For interacting, you have 4 key commands:
 - "d" - visualize a depth-first search to complete the maze
-- "b" - visualize a bread-first search to complete the maze
+- "b" - visualize a breadth-first search to complete the maze
 - " " - at any point in the search, you can pause/resume the animation
 - "r" - at any point in the search, or after it is completed, you can reset to a fresh maze
 
