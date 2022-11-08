@@ -11,3 +11,6 @@ For interacting, you have 4 key commands:
 - "r" - at any point in the search, or after it is completed, you can reset to a fresh maze
 
 After the search reaches the end, it will trace back the shortest path in white
+
+
+https://user-images.githubusercontent.com/94412143/200498716-309af4fc-bb73-4ba1-bc38-4efc9c98d6b7.mp4
