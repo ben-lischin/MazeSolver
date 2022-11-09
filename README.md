@@ -13,9 +13,7 @@ For interacting, you have 4 key commands:
 After the search reaches the end, it will trace back the shortest path in white
 
 
-
 https://user-images.githubusercontent.com/94412143/200663442-cc865b91-8d10-4a0e-9500-6c8c40a53f55.mp4
-
 
 
 In the above demonstration, observe a depth-first search, reset, then breadth-first search
