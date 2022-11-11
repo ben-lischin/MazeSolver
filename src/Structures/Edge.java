@@ -1,7 +1,5 @@
 package Structures;
 
-import java.util.Random;
-
 // represents an Edge
 public class Edge {
   public Vertex from;
