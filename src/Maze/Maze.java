@@ -295,6 +295,9 @@ public class Maze extends World {
   }
 }
 
+
+
+// examples
 class ExamplesMaze {
 
   ICollection<String> queue1 = new MQueue<String>();
@@ -302,7 +305,7 @@ class ExamplesMaze {
 
   Maze maze1 = new Maze(60, 100);
 
-  Maze mazeSeed = new Maze(60, 100, new Random(5));
+  Maze mazeSeed = new Maze(60, 100);
 
   Vertex v1 = new Vertex(new Posn(4, 4), Color.WHITE);
   Vertex v1Right = new Vertex(new Posn(5, 4), Color.WHITE);
@@ -315,7 +318,7 @@ class ExamplesMaze {
   Edge edge3 = new Edge(this.v1, this.v1Left, 69);
   Edge edge4 = new Edge(this.v1, this.v1Right, 420);
 
-  Maze mazeSeed2 = new Maze(4, 4, new Random(5));
+  Maze mazeSeed2 = new Maze(4, 4);
   LineImage vwall = new LineImage(new Posn(0, Maze.CELL_SIZE), Color.BLACK);
   LineImage hwall = new LineImage(new Posn(Maze.CELL_SIZE, 0), Color.BLACK);
   RectangleImage cellStart = new RectangleImage(Maze.CELL_SIZE,
@@ -325,7 +328,7 @@ class ExamplesMaze {
   RectangleImage cellEnd = new RectangleImage(Maze.CELL_SIZE,
       Maze.CELL_SIZE, OutlineMode.SOLID, Color.MAGENTA);
 
-  Maze maze2x2Seed = new Maze(2, 2, new Random(5));
+  Maze maze2x2Seed = new Maze(2, 2);
   // cellStart, cellOther, cellEnd
   // vwall (x1)
   Vertex tl = new Vertex(new Posn(0, 0), Color.GREEN);
@@ -345,7 +348,7 @@ class ExamplesMaze {
     queue1 = new MQueue<String>();
     stack1 = new MStack<String>();
     maze1 = new Maze(60, 100);
-    mazeSeed = new Maze(60, 100, new Random(5));
+    mazeSeed = new Maze(60, 100);
     v1 = new Vertex(new Posn(4, 4), Color.WHITE);
     v1Right = new Vertex(new Posn(5, 4), Color.WHITE);
     v1Left = new Vertex(new Posn(3, 4), Color.WHITE);
@@ -357,7 +360,7 @@ class ExamplesMaze {
     edge3 = new Edge(this.v1, this.v1Left, 69);
     edge4 = new Edge(this.v1, this.v1Right, 420);
 
-    mazeSeed2 = new Maze(4, 4, new Random(5));
+    mazeSeed2 = new Maze(4, 4);
     vwall = new LineImage(new Posn(0, Maze.CELL_SIZE), Color.BLACK);
     hwall = new LineImage(new Posn(Maze.CELL_SIZE, 0), Color.BLACK);
     cellStart = new RectangleImage(Maze.CELL_SIZE,
@@ -367,7 +370,7 @@ class ExamplesMaze {
     cellEnd = new RectangleImage(Maze.CELL_SIZE,
         Maze.CELL_SIZE, OutlineMode.SOLID, Color.MAGENTA);
 
-    maze2x2Seed = new Maze(2, 2, new Random(5));
+    maze2x2Seed = new Maze(2, 2);
     tl = new Vertex(new Posn(0, 0), Color.GREEN);
     tr = new Vertex(new Posn(0, 1), Color.LIGHT_GRAY);
     bl = new Vertex(new Posn(1, 0), Color.LIGHT_GRAY);
@@ -477,7 +480,7 @@ class ExamplesMaze {
     initialData();
     t.checkExpect(this.mazeSeed.board.size(), 6000);
 
-    Maze mazeSeedCopy = new Maze(60, 100, new Random(5));
+    Maze mazeSeedCopy = new Maze(60, 100);
     t.checkExpect(this.mazeSeed.board, mazeSeed.board);
 
     this.mazeSeed.board = new ArrayList<Vertex>();
@@ -494,7 +497,7 @@ class ExamplesMaze {
 
     t.checkExpect(this.mazeSeed.uf.moreThanOneTree(), false);
 
-    Maze mazeSeedCopy = new Maze(60, 100, new Random(5));
+    Maze mazeSeedCopy = new Maze(60, 100);
     for (Vertex v : mazeSeedCopy.board) {
       mazeSeedCopy.uf.union(mazeSeedCopy.uf.representatives, v.p, v.p);
     }
