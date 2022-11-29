@@ -1,5 +1,6 @@
 package Maze;
 
+import tester.*;
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.HashMap;
